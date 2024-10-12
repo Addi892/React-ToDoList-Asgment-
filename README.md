@@ -1,8 +1,20 @@
-# React + Vite
+This is a React Based ToDolist Project made by Using React.
+To setup the React Library There are the instruction below here.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Install Vite globally (if not installed)
+npm install -g create-vite
 
-Currently, two official plugins are available:
+# Create a new project using Vite
+npm create vite@latest my-todo-app --template react
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Change into your project directory
+cd my-todo-app
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+
+
+
