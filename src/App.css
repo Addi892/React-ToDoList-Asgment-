@@ -1,0 +1,96 @@
+/* App.css */
+
+body{
+  display:  flex ;
+  justify-content: center;
+  background: linear-gradient( #ee9ae5, #5961f9);
+
+}
+
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: linear-gradient( #fb8085,
+  #f9c1b1);
+
+}
+
+.header {
+  margin-bottom: 20px;
+}
+.header:hover{
+  background: linear-gradient(#fbd786,
+  #f7797d);
+  border-radius: 20px;
+}
+
+.todo-input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.todo-input-container input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+  background: linear-gradient(#29323c,
+  #485563);
+  color: white;
+  border-radius: 20px;
+
+}
+
+.todo-input-container button {
+  padding: 10px;
+  font-size: 16px;
+  background: linear-gradient(#12cbc4,
+  #c4e538);
+}
+.todo-input-container button:hover{
+  background: linear-gradient(#f05f57,
+  #360940);
+  color: white;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background: linear-gradient(#fff720,
+  #3cd500);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+}
+
+.todo-item button {
+  margin-left: 10px;
+  background: linear-gradient(#79f1a4,
+  #0e5cad);
+}
+.todo-item button:hover{
+  background: linear-gradient(#fc6076,
+  #ff9a44);
+  color: white;
+}
